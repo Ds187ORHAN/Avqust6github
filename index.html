@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html>
+    <head>
+        <title>Javascript  Functions</title>
+    </head>
+    <body>
+        <p>Click "try it" to display the first array element, after a string split.</p>
+        <button onclick="myFuncition()">Try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFuncition() {
+                var str= "a,b,c,d,,e,f";
+                var arr = str. split(",")
+                document.getgetElementById(demo).innerHTML = arr[0];
+            }
+            </script>
+            </body>
+            </html>
